@@ -1,0 +1,23 @@
+{
+  "ID": "String",
+  "CantidadDeUsuario": "int",
+  "NombreDelEcosistema": "String",
+  "Autor": "String",
+  "Disparador": [
+    "Superficie",
+    "Ubicacion",
+    "Marcador"
+  ],
+  "Descripcion": "String",
+  "Tipo": [
+    "Almacenamiento",
+    "Exploratorio",
+    "Educacion",
+    "Instruccional"
+  ],
+  "TipoDeMarcador": [
+    "Fiduciario",
+    "Imagen"
+  ],
+  "UbicacionDelMarcador": "File"
+}
