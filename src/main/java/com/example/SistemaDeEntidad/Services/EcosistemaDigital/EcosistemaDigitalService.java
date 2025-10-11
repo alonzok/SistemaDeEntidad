@@ -12,6 +12,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
+/**
+ * Servicio para gestionar las operaciones relacionadas con los ecosistemas digitales.
+ */
 @Service
 public class EcosistemaDigitalService {
 

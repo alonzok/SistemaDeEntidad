@@ -16,6 +16,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Clase que gestiona eventos y suscriptores en el sistema.
+ */
 @RestController
 public class EventManager {
     Map<String, List<EventListener>> listeners = new HashMap<>();

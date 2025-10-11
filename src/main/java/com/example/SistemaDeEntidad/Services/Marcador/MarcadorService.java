@@ -10,6 +10,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 
+/**
+ * Servicio para gestionar las operaciones relacionadas con los marcadores.
+ */
 @Service
 public class MarcadorService {
 

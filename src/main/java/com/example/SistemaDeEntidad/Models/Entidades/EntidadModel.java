@@ -3,6 +3,9 @@ package com.example.SistemaDeEntidad.Models.Entidades;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
+/**
+ * Modelo que representa una entidad en el sistema.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public class EntidadModel {

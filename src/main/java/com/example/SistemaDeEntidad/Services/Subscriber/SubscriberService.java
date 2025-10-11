@@ -3,20 +3,18 @@ package com.example.SistemaDeEntidad.Services.Subscriber;
 import com.example.SistemaDeEntidad.Models.Subscriber.SubscriberModel;
 import com.example.SistemaDeEntidad.Repositories.Subscriber.SubscriberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
 import java.util.List;
+
+/**
+ * Servicio para gestionar las operaciones relacionadas con los suscriptores.
+ */
 @Service
 public class SubscriberService {
 
     @Autowired
     private SubscriberRepository subscriberRepository;
-    @Autowired
-    private MongoTemplate mongoTemplate;
 
     public SubscriberModel subscribe(SubscriberModel subscriberModel){
         List<SubscriberModel> subscriberModelList = subscriberRepository.findAll();

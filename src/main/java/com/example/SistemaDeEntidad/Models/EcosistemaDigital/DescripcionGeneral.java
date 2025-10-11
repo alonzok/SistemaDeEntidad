@@ -5,10 +5,11 @@ import com.example.SistemaDeEntidad.Constants.TipoDisparador;
 import com.example.SistemaDeEntidad.Constants.TipoEcosistema;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
-import org.springframework.stereotype.Component;
 
+/**
+ * Clase abstracta que representa la descripción general de un ecosistema digital.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public abstract class DescripcionGeneral {

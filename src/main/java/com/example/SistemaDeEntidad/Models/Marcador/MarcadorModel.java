@@ -4,6 +4,9 @@ import org.bson.types.Binary;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * Modelo que representa un marcador en el sistema.
+ */
 @Document(collection = "marcador")
 public class MarcadorModel {
     @Id

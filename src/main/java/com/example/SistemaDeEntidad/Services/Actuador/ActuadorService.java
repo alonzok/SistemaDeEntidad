@@ -8,6 +8,9 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 
+/**
+ * Servicio para gestionar las operaciones relacionadas con los actuadores.
+ */
 @Service
 public class ActuadorService {
 

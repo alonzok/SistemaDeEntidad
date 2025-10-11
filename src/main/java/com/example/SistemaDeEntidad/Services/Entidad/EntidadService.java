@@ -1,28 +1,20 @@
 package com.example.SistemaDeEntidad.Services.Entidad;
 
-import com.example.SistemaDeEntidad.Models.EcosistemaDigital.DescripcionGeneral;
 import com.example.SistemaDeEntidad.Models.Entidades.EntidadModel;
 import com.example.SistemaDeEntidad.Repositories.Entidad.EntidadRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
-import org.springframework.data.mongodb.core.aggregation.AggregationOptions;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
-import static org.springframework.data.mongodb.core.aggregation.Aggregation.lookup;
-
+/**
+ * Servicio para gestionar las operaciones relacionadas con las entidades.
+ */
 @Service
 public class EntidadService {
 
     @Autowired
     private EntidadRepository entidadRepository;
-    @Autowired
-    private MongoTemplate mongoTemplate;
 
     public EntidadModel postPutEntidad(EntidadModel entidadModel){
         return entidadRepository.save(entidadModel);

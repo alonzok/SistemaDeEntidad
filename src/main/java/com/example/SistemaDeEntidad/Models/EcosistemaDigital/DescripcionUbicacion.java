@@ -1,9 +1,11 @@
 package com.example.SistemaDeEntidad.Models.EcosistemaDigital;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Clase que representa la descripción de una ubicación en el ecosistema digital, heredando de DescripcionGeneral.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public class DescripcionUbicacion extends DescripcionGeneral{

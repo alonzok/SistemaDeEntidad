@@ -4,6 +4,9 @@ import com.example.SistemaDeEntidad.Constants.TipoMarcadores;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
+/**
+ * Clase que representa la descripción de un marcador en el ecosistema digital, heredando de DescripcionGeneral.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public class DescripcionMarcador extends DescripcionGeneral{
